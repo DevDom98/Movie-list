@@ -1,13 +1,14 @@
 import "./styles/App.css"
 
 import Card from "./components/Card"
+import Arrows from "./components/Arrows"
 
 const App = () => {
   
   return(
     <div>
-      <h1>Test</h1>
       <Card />
+      <Arrows />
     </div>
   )
 
