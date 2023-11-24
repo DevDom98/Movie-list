@@ -5,14 +5,25 @@
                 -20px -20px 60px #ffffff;
     width: 350px;
     text-align: center;
-    padding: 20px;
 }
 
 .preview-picture{
-    max-width: 200px;
-    border-radius: 50px;
+    background-image: url(../pictures/Harry-Potter.avif);
+    background-position: center;
+    background-size: cover;
+    background-color: lightblue;
+    height: 300px;
+    width: 350px;
+    border-radius: 50px 50px 0px 0px;
 }
 
 .description{
     margin: 20px;
+}
+
+
+.btn-like, .btn-delete{
+    padding: 10px 30px;
+    margin: 30px;
+    border: none;
 }
