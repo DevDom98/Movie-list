@@ -6,7 +6,7 @@ import Arrows from "./components/Arrows"
 const App = () => {
   
   return(
-    <div>
+    <div className="content">
       <Card />
       <Arrows />
     </div>
