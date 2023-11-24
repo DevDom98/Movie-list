@@ -1,5 +1,4 @@
 import "../styles/Card.css"
-import placeholderImg from "../pictures/placeholder.jpg"
 
 const Card = () =>{
     return(
