@@ -26,4 +26,10 @@
     padding: 10px 30px;
     margin: 30px;
     border: none;
+    cursor: pointer;
+    background: white;
+    transition: background-color 0.5s ease-out 100ms;
+}
+.btn-like:hover,.btn-delete:hover{
+    background-color: #db0000;
 }
