@@ -6,7 +6,7 @@ import homeAlone from "./pictures/HomeAlone.jpeg"
 import jobs from "./pictures/Jobs.png"
 import theSocialNetwork from "./pictures/TheSocialNetwork.jpeg"
 
-const data = [
+const allMovies = [
     {
         id: 1,
         previewPicture: harryPotter,
@@ -50,3 +50,5 @@ const data = [
         description: "The Social Network mapuje vznik Facebooku Markem Zuckerbergem, jeho právní spory a osobní konflikty. Představuje ambice, zrádnost a cenu úspěchu v digitální éře sociálních médií."
     },
 ]
+
+export default allMovies
