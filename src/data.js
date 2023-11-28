@@ -1,9 +1,9 @@
 import harryPotter from "./pictures/HarryPotter.avif"
 import avengers from "./pictures/Avengers.jpeg"
 import coco from "./pictures/Coco.jpeg"
-import grinch from "./pictures/Grinch"
+import grinch from "./pictures/Grinch.png"
 import homeAlone from "./pictures/HomeAlone.jpeg"
-import jobs from "./pictures/Jobs.png"
+import jobs from "./pictures/Jobs.jpg"
 import theSocialNetwork from "./pictures/TheSocialNetwork.jpeg"
 
 const allMovies = [
