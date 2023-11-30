@@ -10,12 +10,12 @@ const Card = () =>{
     }
 
     return<section>
-        <div className="allmovies">
+        <div className="cards">
             {
                 cards.map((card)=>{
                     const {id, previewPicture, title, description} = card
 
-                    return  <div className="card-preview" key={id}>
+                    return  <div className="card-container" key={id}>
                             <img className="preview-picture" src={previewPicture} alt="Obrázek"/>
                             <h1 className="title">{title}</h1>
                             <p className="description">{description}</p>
@@ -26,8 +26,6 @@ const Card = () =>{
                     </div>
                 })
             }
-
-            <button onClick={loadAllMovies}>Načíst</button>
         </div>
     </section>
     
