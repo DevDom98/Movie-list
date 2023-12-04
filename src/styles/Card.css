@@ -1,3 +1,6 @@
+.movie-count{
+    text-align: center;
+}
 .card-container{
     border-radius: 50px;
     background: #e0e0e0;
@@ -29,5 +32,25 @@
     transition: background-color 0.5s ease-out 100ms;
 }
 .btn-like:hover,.btn-delete:hover{
+    background-color: #db0000;
+}
+
+.navigation-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    background-color: #E0E0E0;
+    color: black;
+    border-radius: 20px;
+    transition: background-color 0.5s ease-out 100ms;
+}
+a:hover{
     background-color: #db0000;
 }

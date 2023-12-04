@@ -11,11 +11,14 @@ const Card = () =>{
 
     return<section>
         <div className="cards">
+            
             {
                 cards.map((card)=>{
                     const {id, previewPicture, title, description} = card
 
-                    return  <div className="card-container" key={id}>
+                    return  <>
+                            <h1 className="movie-count">{card.id} / {cards.length}</h1>
+                            <div className="card-container" key={id}>
                             <img className="preview-picture" src={previewPicture} alt="Obrázek"/>
                             <h1 className="title">{title}</h1>
                             <p className="description">{description}</p>
@@ -24,8 +27,13 @@ const Card = () =>{
                                 <button className="btn-delete">Vymazat</button>
                             </div>
                     </div>
+                    </>
                 })
             }
+        </div>
+        <div className="navigation-container">
+            <a href="#">Předchozí</a>
+            <a href="#">Další</a>
         </div>
     </section>
     
