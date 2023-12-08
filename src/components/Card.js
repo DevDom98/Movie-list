@@ -9,18 +9,31 @@ const Card = () =>{
 
     const [index, setIndex] = useState(0)
     const {image, title, description} = data[index]
+
+    const checkMovieNumber = (movieIndex) => {
+        if(movieIndex < 0){
+            return data.length -1
+        }else if(movieIndex > data.length -1){
+            return 0
+        }else{
+            return movieIndex
+        }
+    }
     
     const nextMovie = () =>{
         setIndex((index)=>{
             const newIndex = index + 1
-            return newIndex
+            console.log(newIndex)
+            return checkMovieNumber(newIndex)
+            
         })
     }
 
     const prevMovie = () => {
         setIndex((index)=>{
             const newIndex = index - 1
-            return newIndex
+            console.log(newIndex)
+            return checkMovieNumber(newIndex)
         })
     }
     
