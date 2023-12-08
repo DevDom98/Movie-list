@@ -1,6 +1,10 @@
 import "../styles/Card.css"
 import data from "../data"
 import { useState } from "react"
+import { FaAngleLeft } from "react-icons/fa6";
+import { FaAngleRight } from "react-icons/fa6";
+
+
 const Card = () =>{
 
     const [movies, setMovies] = useState(data)
@@ -43,8 +47,8 @@ const Card = () =>{
             
         </div>
         <div className="navigation-container">
-            <a onClick={prevMovie}>Předchozí</a>
-            <a onClick={nextMovie}>Další</a>
+            <a onClick={prevMovie}><FaAngleLeft/></a>
+            <a onClick={nextMovie}><FaAngleRight/></a>
         </div>
     </section>
     
